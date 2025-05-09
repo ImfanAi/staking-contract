@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol"; // Import Ownable for acces
 
 contract usdc is ERC20, Ownable {
     // Constructor to initialize the token with a name and symbol
-    constructor() ERC20("usdc", "USDC") Ownable(msg.sender) {
+    constructor() ERC20("PAPPLETEST", "PTEST") Ownable(msg.sender) {
         // Mint an initial supply of tokens to the deployer
         _mint(msg.sender, 10000000000 * 10 ** decimals());
     }
