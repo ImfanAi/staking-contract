@@ -4,6 +4,7 @@ dotenv.config();
 
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-chai-matchers";
+import "@openzeppelin/hardhat-upgrades";
 
 const infuraKey = "99b3813d7d62470987697dfa83991abe";
 const privateKey = "b604952f3daaeb6a7295828e80756020e95b8459a074700c2d4c954812bb5540";
